@@ -14,6 +14,11 @@ class Restaurant:
         """打印这家店是开张的"""
         print(f"The {self.restaurant_name} is openning!")
 
-resturant = Restaurant('Hao Liyou', 'Chinese')
-resturant.describe_restaurant()
-resturant.open_restaurant()
+restaurant = Restaurant('Hao Liyou', 'Chinese')
+restaurant.describe_restaurant()
+
+restaurant_1 = Restaurant('Tong Fu', 'Xiangcai')
+restaurant_1.describe_restaurant()
+
+restaurant_2 = Restaurant('A Qiang', 'Yuecai')
+restaurant_2.describe_restaurant()
